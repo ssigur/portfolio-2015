@@ -1,0 +1,19 @@
+$c-blue : #4dbaee;
+$c-red : #ff0000;
+
+@import "vendor/bourbon/bourbon";
+
+body{
+	border: 10px solid $c-blue;
+	color: $c-red;
+
+ //@include box-sizing(border-box); // test compass;
+ background: tint($c-blue, 30%);
+
+ p{
+ 	font-size: em(16,14);
+ }
+
+	
+	 
+}
